@@ -1,0 +1,236 @@
+@CHARSET "ISO-8859-1";
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+
+
+.item {
+    border-radius: 4px;
+}
+
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+
+.thumbnail img {
+    width: 100%;
+}
+
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+
+.thumbnail {
+    padding: 0;
+}
+
+
+.thumbnail 
+.caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
+  body {
+    font-family: latoregular;
+    font-size: 15px;
+    line-height: 1.2;
+    color: #0e0e0e;
+    background-color: rgba(245, 230, 230, 0.04) !important;
+}
+.fullimg {
+		width:100%!important;
+		}
+.logoText {
+	font-family:"algerian";
+	font-size:38px;
+	color:#2268EA;
+	}
+.logoText small {
+	font-family:"Segoe Print";
+	display:block;
+	font-size:17px;
+	margin-left:85px;
+	}
+.margiTop25 {
+	margin-top:28px;
+	}
+.proBox {
+	border:1px solid #7EB8E2;
+	padding:6px;
+	border-radius:4px;
+	}
+.bgcolor {
+	background-color:#E2E2E2;
+	display:block;
+	padding:5px;
+	}
+.bdrtop {
+	border-bottom:2px solid #E2E2E2;
+	}
+.btn-pink {
+	background-color:#2518ef;
+	}
+.martop {
+margin-top:20px;
+}	
+.container-fluid {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.container-fluid{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+box-sizing: border-box;
+@media (min-width: 992px)
+{
+    margin-right: 0;
+    margin-left: 0;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+@media (min-width: 768px)
+.navbar-collapse.collapse {
+    display: block!important;
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: visible!important;
+}
+@media (min-width: 768px)
+.navbar-collapse {
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+}
+.navbar-default {
+    background-color: #2518ef;
+    border-color: #ffffff;
+}
+.navbar-default .navbar-nav>.active>a{
+color: #fff;
+    background-color: #ff081f;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;}
+	@media (min-width: 768px)
+.navbar-nav {
+    float: left;
+    margin: 0;}
+.yamm.navbar-default li.active {
+    background-color: #ff081f;
+}
+.nav>li {
+    position: relative;
+    display: block;
+	}
+
+/*css for body coontainer*/
+
+@media (min-width: 1000px)
+.container {
+    width: 1000px;   /*can adjust body container*/   
+}
+
+	.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #f4511e;
+}
+
+.carousel-indicators li {
+    border-color: #f4511e;
+}
+
+.carousel-indicators li.active {
+    background-color: #f4511e;
+}
+@media (min-width: 992px)
+footer.footer.footer-shop{
+    width: 1000px;   /*can adjust body container*/   
+}
+.footer {
+    font-family: 'latolight';
+    color: #fff;
+    text-align: left;}
+.footer-shop {
+     background: #000;}
+.footer-shop p {
+    line-height: 40px;
+}
+p {
+    margin: 0 0 10px;}
+.col-md-3,.col-sm-6,.col-lg-3,.col-xs-12{
+float: left;
+position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+   .icons{
+margin-top:10px;
+}
+   
+/*cart css style*/
+
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+		width:20%;
+		display: inline !important;
+	}
+	.actions .btn{
+		width:36%;
+		margin:1.5em 0;
+	}
+	
+	.actions .btn-info{
+		float:left;
+	}
+	.actions .btn-danger{
+		float:right;
+	}
+	
+	table#cart thead { display: none; }
+	table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+	table#cart tbody tr td:first-child { background: #333; color: #fff; }
+	table#cart tbody td:before {
+		content: attr(data-th); font-weight: bold;
+		display: inline-block; width: 8rem;
+	}
+	
+
